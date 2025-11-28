@@ -80,7 +80,7 @@ Before you begin, ensure you have the following installed:
 
 ## Phase 2: Frontend Setup (React)
 -   Clone the Repository:
-    -   git clone [https://github.com/your-username/luxe-fashion.git](https://github.com/your-username/luxe-fashion.git)
+    -   git clone [https://github.com/cloudpilothq/luxe-fashion.git](https://github.com/cloudpilothq/luxe-fashion.git)
     -   cd luxe-fashion
 
 -   Install Dependencies:
@@ -94,7 +94,7 @@ Before you begin, ensure you have the following installed:
 
 # The URL to your local or live WordPress site
 
-VITE_WORDPRESS_URL=http://localhost:8080/luxe-backend
+-    **VITE_WORDPRESS_URL**=http://localhost:8080/luxe-backend
 
 # Keys generated in WooCommerce Settings
 
