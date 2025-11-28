@@ -29,7 +29,7 @@ This project follows a Headless Commerce architecture:
     -   **User Accounts:** Registration and login via Firebase Auth.
     -   **My Account Dashboard:** Manage profile details, saved addresses, and view order history.
     -   **Shopping Cart:** Persistent cart state using LocalStorage.
-    -  ** Checkout:** Integrated order placement system that syncs with WooCommerce.
+    -   **Checkout:** Integrated order placement system that syncs with WooCommerce.
 -   **Admin Features**
     -   **CMS Dashboard:** Manage site content (Hero banners, text, contact info) directly from the admin panel.
     -   **Product Management:** Add, edit, and delete products via the WordPress backend.
@@ -98,19 +98,20 @@ VITE_WORDPRESS_URL=http://localhost:8080/luxe-backend
 
 # Keys generated in WooCommerce Settings
 
-VITE_WC_CONSUMER_KEY=ck_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-VITE_WC_CONSUMER_SECRET=cs_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-    **VITE_WC_CONSUMER_KEY**=ck_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-    **VITE_WC_CONSUMER_SECRET**=cs_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 # --- FIREBASE CONFIG ---
 
 # Keys from Firebase Project Settings
 
-VITE_API_KEY=AIzaSy...
-VITE_AUTH_DOMAIN=luxe-fashion.firebaseapp.com
-VITE_PROJECT_ID=luxe-fashion
-VITE_STORAGE_BUCKET=luxe-fashion.appspot.com
-VITE_MESSAGING_SENDER_ID=123456789
-VITE_APP_ID=1:123456789:web:abcdef
+
+-    **VITE_API_KEY**=AIzaSy...
+-    **VITE_AUTH_DOMAIN**=luxe-fashion.firebaseapp.com
+-    **VITE_PROJECT_ID**=luxe-fashion
+-    **VITE_STORAGE_BUCKET**=luxe-fashion.appspot.com
+-    **VITE_MESSAGING_SENDER_ID**=123456789
+-    **VITE_APP_ID**=1:123456789:web:abcdef
 
 
 ## Run the App:
